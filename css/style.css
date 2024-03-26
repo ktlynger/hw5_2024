@@ -113,8 +113,7 @@ with the class card have a width of 274 px */
 }
 
 
-/* Attempts to make the header stick but don't see it happening
-but thought this would work. COME BACK IF TIME */
+/* makes the header stick*/
 
 body > header {
     position: sticky;
@@ -161,10 +160,7 @@ body > header {
     .gallery {
         display: none;
     
-    .card li:nth-child(2)::after{
-        content: "\1F44D"
     }
 
     }
     }
-}
