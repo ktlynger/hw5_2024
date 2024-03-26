@@ -115,8 +115,7 @@ with the class card have a width of 274 px */
 }
 
 
-/* Attempts to make the header stick but don't see it happening
-but thought this would work. COME BACK IF TIME */
+/* Makes the header stick even when you scroll  */
 
 body > header {
     position: sticky;
