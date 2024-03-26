@@ -1,3 +1,4 @@
+/* animates logo */
 @keyframes logo-animation {
     0% {width: 25px; opacity: 0;}
     100% {width: 475px; opacity: 1;}
@@ -8,6 +9,7 @@
     animation-duration: 5s;
 }
 
+/* sets body font, background image, and color */
 body {
     font-family: "Poppins", sans-serif; 
     background-image: url('/images/concrete_seamless.png');
@@ -113,7 +115,8 @@ with the class card have a width of 274 px */
 }
 
 
-/* makes the header stick*/
+/* Attempts to make the header stick but don't see it happening
+but thought this would work. COME BACK IF TIME */
 
 body > header {
     position: sticky;
@@ -152,6 +155,7 @@ body > header {
         align-items: flex-end;
     }
 
+    /* sets the border and flex size for card classes */
     .card{
         border: 2px solid #45ADDD;
         flex-basis: 325 px;
@@ -164,3 +168,4 @@ body > header {
 
     }
     }
+}
